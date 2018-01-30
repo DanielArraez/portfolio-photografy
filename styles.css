@@ -1,4 +1,9 @@
-body {
+html {
   margin: 0 auto;
   font-family: 'Nunito', sans-serif;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
