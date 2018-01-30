@@ -5,11 +5,16 @@
   width: 100%;
 }
 
-.navbar {
+.topnav {
  position: fixed;
  top: 0;
  width: 100%;
- background-color: White;
+ background-color: white;
+ text-decoration: none;
+}
+
+main {
+ margin-top: 3em;
 }
 
 
