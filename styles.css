@@ -11,10 +11,17 @@ ul {
  margin: 0;
 }
 
+li {
+-webkit-column-break-inside: avoid;
+page-break-inside: avoid;
+ break-inside: avoid;
+}
+
 @media only screen and (min-width: 800px) {
     /* For mobile phones: */
     [class*="img"] {
         width: 50%;
         float: left;
+        float: top;
     }
 }
