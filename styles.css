@@ -5,8 +5,7 @@
   width: 100%;
 }
 body, html {
- overflow-x: visible;
- overflow-y: visible;
+ overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     display: none;
