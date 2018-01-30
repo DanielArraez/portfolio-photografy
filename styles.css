@@ -4,9 +4,7 @@
   font-family: 'Nunito', sans-serif;
   width: 100%;
 }
-body, html {
- overflow-x: hidden;
-}
+
 ::-webkit-scrollbar {
     display: none;
 }
