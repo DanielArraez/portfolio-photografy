@@ -4,6 +4,9 @@
   font-family: 'Nunito', sans-serif;
   width: 100%;
 }
+body, html {
+ overflow-x: visible;
+}
 
 .grid {
  display: grid;
