@@ -1,9 +1,13 @@
-html {
+* {
   margin: 0 auto;
+  padding: 0 auto;
   font-family: 'Nunito', sans-serif;
 }
 
+ul {
+ list-style-type: none;
+}
+
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
+
+}
