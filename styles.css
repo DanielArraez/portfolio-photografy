@@ -2,12 +2,19 @@
   margin: 0 auto;
   padding: 0 auto;
   font-family: 'Nunito', sans-serif;
+  width: 100%;
 }
 
 ul {
  list-style-type: none;
+ padding: 0;
+ margin: 0;
 }
 
-main {
-
+@media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 50%;
+        float: left;
+    }
 }
