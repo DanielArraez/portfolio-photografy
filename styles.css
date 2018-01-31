@@ -2,7 +2,7 @@
   margin: auto;
   padding: auto;
   font-family: 'Nunito', sans-serif;
-  width: 100%;
+  width: 99.8%;
 }
 
 .topnav {
@@ -10,18 +10,49 @@
  top: 0;
  width: 100%;
  background-color: white;
+
+}
+
+.name-navbar {
+ width: 40%;
+ float: left;
+ position: fixed;
+}
+
+.name-navbar h1 {
+ margin: 0em 0em 0em 1em;
+}
+
+
+
+.tabs-navbar {
+ width: 50%;
+ float: right;
+ text-align: right;
+ margin: 1em 2.5rem 0em 0em;
+
+}
+.inside-tab-navbar {
+ text-align: right;
+
+}
+
+.inside-tab-navbar a {
  text-decoration: none;
 }
 
+/*/ MARGIN TO AVOID OVERLAPPING WITH TOP NAVIGATION BAR /*/
 main {
  margin-top: 3em;
 }
 
-
+/*/ NONVISIBLE SCROLLBAR /*/
 ::-webkit-scrollbar {
     display: none;
 }
 
+
+/*/ GRID /*/
 .grid {
  display: grid;
  grid-gap: 0.5%;
