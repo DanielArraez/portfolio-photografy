@@ -39,6 +39,11 @@
 
 .inside-tab-navbar a {
  text-decoration: none;
+ font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 /*/ MARGIN TO AVOID OVERLAPPING WITH TOP NAVIGATION BAR /*/
