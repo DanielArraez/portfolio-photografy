@@ -10,6 +10,7 @@
  top: 0;
  width: 100%;
  background-color: white;
+ height: 2.75em;
 
 }
 
@@ -22,7 +23,6 @@
 .name-navbar h1 {
  margin: 0em 0em 0em 1em;
 }
-
 
 
 .tabs-navbar {
@@ -41,11 +41,24 @@
  text-decoration: none;
  font-weight: bold;
 }
+/*/ TOP BUTTON /*/
+div.to-the-top {
+ position: sticky;
+ top: 30em;
+}
+/*/ LINKS LINKS LINKS LINKS /*/
+a.name-link {
+  text-decoration: none;
+  color: inherit;
+}
 
-.name_link a {
- text-decoration: none;
- font-weight: bold;
- color: inherit;
+a.name-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link_active {
+ color: red;
 }
 
 /*/ LINK NAV BAR MODIFICATION /*/
@@ -84,5 +97,5 @@ main {
    grid-row-end: span 20;
 }
 .vertical {
-   grid-row-end: span 45;
+   grid-row-end: span 44;
 }
