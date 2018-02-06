@@ -42,8 +42,23 @@
  font-weight: bold;
 }
 
+.name_link a {
+ text-decoration: none;
+ font-weight: bold;
+ color: inherit;
+}
+
+/*/ LINK NAV BAR MODIFICATION /*/
 a:visited {
-    text-decoration: none;
+ color: inherit;
+}
+
+a:link {
+ color: inherit;
+}
+
+a:hover {
+ color: #ED6A5E;
 }
 
 /*/ MARGIN TO AVOID OVERLAPPING WITH TOP NAVIGATION BAR /*/
