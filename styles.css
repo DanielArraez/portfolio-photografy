@@ -15,9 +15,13 @@
 }
 
 .name-navbar {
- width: 40%;
+ width: 85%;
  float: left;
  position: fixed;
+}
+
+h1, h5 {
+  display: inline;
 }
 
 .name-navbar h1 {
@@ -26,7 +30,7 @@
 
 
 .tabs-navbar {
- width: 50%;
+ width: 39%;
  float: right;
  text-align: right;
  margin: 1em 2.5rem 0em 0em;
@@ -49,6 +53,7 @@
 }
 
 .inside-tab-navbar {
+ width: 100%;
  display: none;
  z-index: 1;
  background-color: White;
