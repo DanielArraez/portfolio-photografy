@@ -37,10 +37,34 @@
 
 }
 
-.inside-tab-navbar a {
+.inside-tab-navbar a, .dropdown {
  text-decoration: none;
  font-weight: bold;
 }
+
+/*/ DROPDOWN MENU /*/
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+
+.inside-tab-navbar {
+ display: none;
+ z-index: 1;
+ background-color: White;
+}
+
+.inside-tab-navbar a {
+ float: none;
+ display: block;
+ text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+
 /*/ TOP BUTTON /*/
 div.to-the-top {
  position: sticky;
