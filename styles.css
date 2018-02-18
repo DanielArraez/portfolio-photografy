@@ -15,25 +15,21 @@
 }
 
 .name-navbar {
- width: 85%;
+ margin-left: 1em;
+ width: 12.5em;
  float: left;
  position: fixed;
 }
 
-h1, h5 {
-  display: inline;
+#Layer_1 {
+ height: 2.75em;
 }
-
-.name-navbar h1 {
- margin: 0em 0em 0em 1em;
-}
-
 
 .tabs-navbar {
- width: 39%;
+ width: 8.5em;
  float: right;
  text-align: right;
- margin: 1em 2.5rem 0em 0em;
+ margin: 0.8em 2rem 0em 0em;
 
 }
 .inside-tab-navbar {
@@ -69,12 +65,17 @@ h1, h5 {
     display: block;
 }
 
-
-/*/ TOP BUTTON /*/
-div.to-the-top {
- position: sticky;
- top: 30em;
+.dropdownbutton {
+ background-color: inherit;
+ border: 0.075em solid;
+ font-weight: bold;
+ font-size: 1em;
 }
+.dropdownbutton:hover {
+ color: #ED6A5E;
+}
+
+
 /*/ LINKS LINKS LINKS LINKS /*/
 a.name-link {
   text-decoration: none;
