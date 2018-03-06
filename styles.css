@@ -6,6 +6,7 @@
 }
 
 .topnav {
+  z-index: 500;
  position: fixed;
  top: 0;
  width: 100%;
@@ -116,6 +117,44 @@ main {
 
 
 /*/ GRID /*/
+
+a.progressive {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+}
+
+a.progressive:not(.replace) {
+  cursor: default;
+}
+
+a.progressive img {
+
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border: 0 none;
+}
+
+a.progressive img.preview {
+  filter: blur(0.3vw);
+  transform: scale(1);
+}
+
+a.progressive img.reveal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform, opacity;
+  animation: reveal 0.2s ease-out;
+}
+
+@keyframes reveal {
+  0% {transform: scale(1.0); opacity: 0;}
+  100% {transform: scale(1); opacity: 1;}
+}
+
 .grid {
  display: grid;
  grid-gap: 0.5%;
