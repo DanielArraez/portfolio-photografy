@@ -162,9 +162,45 @@ a.progressive img.reveal {
  grid-auto-rows: auto;
 }
 
+
 .horizontal {
    grid-row-end: span 20;
 }
 .vertical {
    grid-row-end: span 44;
+}
+
+/*/ Contact Page /*/
+
+.grid2 {
+  width: 88%;
+  display: grid;
+  grid-gap: 0.5%;
+  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+
+}
+
+.contactSize{
+  max-width: 1000px;
+}
+
+input, textarea, .buttonContact, .textForm {
+  width: 100%;
+  margin: 0.3em;
+  box-sizing: border-box;
+  outline: #ED6A5E;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.contactForm {
+  margin-top: 2.5em;
+}
+
+.formElement {
+ background-color: inherit;
+ border: 0.025em solid;
+ font-size: 0.9em;
 }
