@@ -11,6 +11,7 @@ window.onclick = function(e) {
  }
 }
 
+
 // progressive-image.js
 if (window.addEventListener && window.requestAnimationFrame && document.getElementsByClassName) window.addEventListener('load', function() {
 
