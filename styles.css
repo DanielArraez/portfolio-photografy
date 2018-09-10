@@ -176,7 +176,7 @@ a.progressive img.reveal {
   width: 88%;
   display: grid;
   grid-gap: 0.5%;
-  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 450px));
 
 }
 
@@ -184,15 +184,17 @@ a.progressive img.reveal {
   max-width: 1000px;
 }
 
+.imgForm {
+  max-height: 600px;
+  width: auto;
+}
+
+
 input, textarea, .buttonContact, .textForm {
   width: 100%;
   margin: 0.3em;
   box-sizing: border-box;
   outline: #ED6A5E;
-}
-
-textarea {
-  resize: vertical;
 }
 
 .contactForm {
@@ -203,4 +205,12 @@ textarea {
  background-color: inherit;
  border: 0.025em solid;
  font-size: 0.9em;
+ margin: 0.3em;
+}
+
+.inputText {
+  overflow: hidden;
+  resize: vertical;
+  min-height: 7em;
+
 }
